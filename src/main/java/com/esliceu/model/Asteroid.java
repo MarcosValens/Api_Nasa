@@ -1,3 +1,5 @@
+package com.esliceu.model;
+
 public class Asteroid {
     private String nombre;
     private double velocidad;
