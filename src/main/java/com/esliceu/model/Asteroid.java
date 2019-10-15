@@ -12,4 +12,20 @@ public class Asteroid {
         this.esPeligroso = esPeligroso;
         this.tamano = tamano;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getVelocidad() {
+        return velocidad;
+    }
+
+    public boolean isEsPeligroso() {
+        return esPeligroso;
+    }
+
+    public double getTamano() {
+        return tamano;
+    }
 }

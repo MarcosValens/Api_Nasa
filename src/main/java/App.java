@@ -13,7 +13,8 @@ public class App {
         AsteroidController asteroidControlller = new AsteroidController();
         List<Asteroid> asteroides = asteroidControlller.getAsteroids();
         for(Asteroid asteroid :asteroides){
-            System.out.println(asteroid);
+            System.out.println("\nNombre: "+asteroid.getNombre()+"\nVelocidad: "+asteroid.getVelocidad()+"\nTamaño: "
+            +asteroid.getTamano()+"\nPeligro: "+asteroid.isEsPeligroso());
         };
     }
 }
